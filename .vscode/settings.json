@@ -1,0 +1,19 @@
+{
+  // 指定哪些文件不参与搜索
+  "search.exclude": {
+    "**/node_modules": true,
+    "dist": true
+  },
+
+  "cSpell.words": ["juyren", "preinstall", "stylelint", "stylelintrc"],
+
+  "stylelint.validate": ["less"],
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 基于.prettierrc格式化文件，需要安装Prettier插件
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll.eslint": "explicit"
+  }
+}
